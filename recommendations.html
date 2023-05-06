@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://i.ibb.co/qpL7QRd/free-icon.png" type="image/free-icon">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://i.ibb.co/nz9zN4V/2.png" alt="Logo image"></a>
+            <div class="nav-links" id="navLink">
+                
+                <ul>
+                    <li><a href="index.html"target="_blank">Description</a></li>
+                    <li><a href="about_attacks.html"target="_blank">About Attacks</a></li>
+                    <li><a href="analysis.html"target="_blank">Analysis</a></li>
+                    <li><a href="recommendations.html"target="_blank">Recommendations</a></li>
+                    <li><a href="conclusion.html"target="_blank">Conclusion</a></li>    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick ="showMenu()"></i>
+        </nav>
+        <h1></h1>
+    </section>
+    <content>
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <h2>&nbsp;Recommendations for solving those security problems in 4G and 5G mobile networks, attacks that were considered earlier:</h2>
+                    <p>&nbsp; 1.Authentication Attacks:
+                        Implementation of two-factor authentication mechanisms: Additional verification of the user's identity, such as the use of one-time passwords or biometric data, helps prevent attacks on identity forgery or the use of stolen credentials.
+                        Strengthening the security of credentials: It is recommended to use complex passwords and change them regularly, as well as use security measures, such as storing passwords in encrypted form.</p>
+                    <br>
+                    <p>&nbsp; 2.Data Encryption Attacks:
+                        Updating Encryption Protocols: Support updated versions of encryption protocols, such as AES, and follow the recommendations for their secure configuration.
+                        Secure Encryption Keys: Ensure secure storage and exchange of encryption keys using reliable methods such as Public Key Exchange Protocols (PKI).</p>
+                    <br>
+                    <p>&nbsp; 3. Access Control attacks:
+                        Implementation of multi-level authentication: Use access control mechanisms that provide different levels of authorization depending on the type of resource or service.
+                        Monitoring and detection of abnormal activity: Implement monitoring and detection systems that can identify suspicious access attempts and take appropriate measures, such as blocking access or alerting administrators.</p>
+                    <br>
+                    <p>&nbsp; In addition, it is recommended to provide training and awareness of users about possible security threats and how to prevent attacks. Regular software updates and the application of the latest patches are also important measures to maintain security in 4G and 5G mobile networks.</p>
+                    <div class="comment-box">
+                        <h3>&nbsp; Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Email(In VSB-TUO)">
+                            <textarea rows="5" placeholder="Your Coomment"></textarea>
+                            <button type="submit" class="btn blue-btn">Post Comment</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="blog-left">
+                    <img src="https://i.ibb.co/Qdh4CZN/CG.webp" alt="image">
+                </div>
+                <div class="blog-right">
+                    <h3>Shortly Overview</h3>
+                    <div>
+                        <span>Authentication Attacks</span>
+                        <span>1</span>
+                    </div>
+                    <div>
+                        <span>Data Encryption Attacks</span>
+                        <span>2</span>
+                    </div>
+                    <div>
+                        <span>Access Control Attacks</span>
+                        <span>3</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </content>
+    <footer>
+        <h4>About Mr.Shendibay</h4>
+        <p>He graduated from school with a "Gold Medal"</p>
+        
+        <p>Made by Azmeiir Shendibay <i class="fa fa-check"  aria-hidden="true"></i></p>
+    </footer>
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() { 
+            navLink.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

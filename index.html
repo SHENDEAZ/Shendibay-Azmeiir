@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security in 4G and 5G</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://i.ibb.co/ZJPTPW4/free-icon-shield-1320470.png" type="image/free-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="https://i.ibb.co/vHB0b0s/logo.png" alt="Logo image"></a>
+            <div class="nav-links" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"target="_blank">Description</a></li>
+                    <li><a href="about_attacks.html"target="_blank">About attacks</a></li>
+                    <li><a href="analysis.html"target="_blank">Analysis</a></li>
+                    <li><a href="recommendations.html"target="_blank">Recommendations</a></li>
+                    <li><a href="conclusion.html"target="_blank">Conclusion</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+    <content>
+        <section class="course">
+            <h1>Description</h1>
+            <p>The security mechanisms in 4G and 5G mobile networks include authentication and encryption procedures that ensure the confidentiality and integrity of the transmitted data. Here are a few key security mechanisms:</p>
+                <div class="row">
+                    <div class="course-col">
+                        <h3>Authentication procedures</h3>
+                        <p>Authentication is the process of verifying the identity of the subscriber and the device that is connected to the network. Cryptographic protocols such as JAVA (Authentication and Key Agreement) are used for authentication, which ensure secure communication between the client and the server. The subscriber and the network exchange messages that contain unique identifiers and secret keys to verify each other's authenticity. This prevents substitution attacks such as man-in-the-middle attacks and other similar attacks.</p>
+                    </div>
+                    <div class="course-col">
+                        <h3>Encryption</h3>
+                        <p>Encryption is the process of converting data into a form that cannot be read or understood by others, except those who have the right to access this information. 4G and 5G use cryptographic protocols such as AES (Advanced Encryption Standard) to encrypt data. The data is transmitted between the subscriber and the network in encrypted form, which makes them inaccessible to unauthorized access and increases the security level of the network.</p>
+                    </div>
+                    <div class="course-col">
+                        <h3>Using Virtual Private Networks (VPNs)</h3>
+                        <p>VPN is a virtual private network that provides a secure connection between the subscriber and the server. VPNs are used to create a secure and encrypted tunnel between the user's device and the network. This allows you to hide information transmitted over the network from prying eyes and provides protection against attacks such as data substitution and interception.</p>
+                    </div>
+                </div>
+        </section>
+        <section class="campus">
+            <h1>List of the main LTE networks in Europe</h1>
+            <p>We present to your attention three main companies</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="https://i.ibb.co/RcBXVQf/o2-logo.png" alt="">
+                    <div class="label">
+                        <h3>O2</h3>
+                    </div>
+                </div>
+                <div class="t-m">
+                    <img src="https://i.ibb.co/0KxdCCF/Tm.jpg" alt="">
+                    <div class="t-mobile">
+                        <h3>T-Mobile</h3>
+                        </div>
+                    </div>
+                <div class="voda-col">
+                    <img src="https://i.ibb.co/Bz1tT5g/Vodafone.jpg" alt="">
+                    <div class="vodafone">
+                        <h3>Vodafone</h3>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="facilities">
+            <h1>Complete Description</h1>
+            <p>On the second page of the site, you saw only a description of the mechanisms, now it's time to learn more about the principles of operation.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="https://i.ibb.co/TvFSLCh/AUTN.jpg" alt="">
+                    <h3>Authentication</h3>
+                    <p>  The authentication procedure involves the exchange of messages between the client and the server, where each message contains unique identifiers and secret keys. First, the client sends a message to the server that contains its identifier and a random value (RAND). Then, the server uses this information to calculate two values: the secret key (K) and the confirmation value (AUTN). The secret key (K) is used to encrypt further data exchange between the client and the server. The confirmation value (AUTN) is used to authenticate the client.
+                        After the server has calculated the secret key (K) and the confirmation value (AUTN), it sends them back to the client. The client can now use the secret key (K) to encrypt and decrypt the data that will be transmitted between him and the server. It also uses a validating value (AUTN) to authenticate the server.
+                        Thus, the use of the AKA cryptographic protocol ensures the security of interaction between the client and the server, preventing spoofing attacks and other similar attacks..</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="https://i.ibb.co/wCBVst6/AES256.png" alt="">
+                    <h3>Encryption</h3>
+                    <p>  Encryption is performed using cryptographic protocols such as Advanced Encryption Standard (AES).
+                        During the encryption process, the data is converted into an encrypted form that can only be understood by those who have the right to access this information. 4G and 5G networks use symmetric encryption, which means that the same key is used for encryption and decryption.
+                        The encryption key is created on the subscriber's side and transmitted to the network in encrypted form during the authentication process. This allows you to ensure the security of data transmission between the subscriber and the network.
+                        To increase the level of network security in 5G networks, a new encryption protocol is used - 256-bit GCM (Galois/Counter Mode). It provides a higher degree of data protection and prevents attacks related to interception and modification of transmitted data.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="https://i.ibb.co/CB2VSxL/vpn.jpg" alt="">
+                    <h3>VPN</h3>
+                    <p>  To create a VPN, various protocols are used, such as PPTP (Point-to-Point Tunneling Protocol), L2TP (Layer 2 Tunneling Protocol), IPsec (Internet Protocol Security), OpenVPN and others. Each protocol has its own characteristics and is suitable for different types of networks and devices.
+                        VPN provides a high level of security, since all data transmitted through the VPN tunnel is encrypted and inaccessible to unauthorized access. This allows you to secure the transfer of confidential information, such as usernames, passwords, bank data and other important data.
+                        In addition, VPN allows you to hide the user's IP address, which increases the level of privacy and anonymity on the Internet. This is especially important if the user wants to circumvent the restrictions imposed on access to certain sites or services in their country.
+                        However, despite all the advantages, VPN also has disadvantages and potential vulnerabilities that can become the target of attacks by intruders. Therefore, to ensure the maximum level of security, it is necessary to use reliable and proven VPN services, as well as observe basic security rules, such as using strong passwords and restricting access to confidential information.</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h1>What the Experts Says</h1>
+            <p>I was looking for different opinions and thoughts of those people who are experts in their work.</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="https://i.ibb.co/Xss58sL/230.png" alt="">
+                    <div>
+                        <p>I believe that all communications networks need objective, transparent protections that how to international standards. As we move forward, I think society must recognize that there's no reason to believe that 5G will somehow make networks less secure than in the past. In fact, given the advanced new technology 5G brings to bear on network security, it can make networks more secure than they've ever been.</p>
+                        <h3>Andy Purdy - "Huawei" cultivating a culture of security</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="https://i.ibb.co/Nr8YVHZ/231.png" alt="">
+                    <div>
+                        <p>If you're using a mobile device for banking transactions, you're leaving that susceptible to an attacker intercepting that data. With 5G, our main concern is with IoT innovations.</p>
+                        <h3> Monique Becenti - PMM(Product Marketing Manager)</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <h1>We will meet you in the next site about analysis</h1>
+            <img src="" alt="">
+            <a href="file:///C:/Users/HP/Downloads/Shendibay%20Azmeiir/analysis.html" target="_blank" class="hero-btn">Click on the button</a>
+        </section>
+    </content>
+    <footer>
+        <h4>About Us</h4>
+        <p>My IT school is just a dream and a fiction in reality. Thank you for your attention!.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Azmeiir Shendibay <i class="fa fa-check" aria-hidden="true"></i></p>
+    </footer>
+    <div class="textbox">
+        <h1>Security in 4G and 5G Mobile Networks</h1>
+        <p>Security mechanisms, search for possible attacks, feasibility analysis and their recommendations.</p>
+            <a href="file:///C:/Users/HP/Downloads/Shendibay%20Azmeiir/about_attacks.html" target="_blank" class="btn">About Attacks</a>
+    </div>
+    <script>
+        var navLink=document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right="0";
+        }
+        function hideMenu() {
+            navLink.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

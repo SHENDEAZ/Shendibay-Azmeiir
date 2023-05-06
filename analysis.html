@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://i.ibb.co/rdSxVb7/anal.png" type="image/free-icon">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="analysis.html">
+                <img src="https://i.ibb.co/p26WJzk/Analysis.gif"> 
+            <div class="nav-links" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"target="_blank">Description</a></li>
+                    <li><a href="about_attacks.html"target="_blank">About attacks</a></li>
+                    <li><a href="analysis.html"target="_blank">Analysis</a></li>
+                    <li><a href="recommendations.html"target="_blank">Recommendations</a></li>
+                    <li><a href="conclusion.html"target="_blank">Conclusion</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Analysis</h1>
+    </section>
+    <section class="course">
+        <h1>The analysis on the topic "Security in 4G and 5G mobile networks" can be presented as follows:</h1>
+        <p>The analysis will be carried out in three main points, for the sake of infomartivity and easy clarity of the topic.</p>
+        <div class="row">
+            <div class="analysis-col">
+                <h3>Security mechanisms</h3>
+                <p>4G and 5G networks use various security mechanisms, including authentication, encryption and access control. Authentication protocols, such as AKA (Authentication and Key Agreement), provide authentication of the subscriber and the device to prevent unauthorized access.
+                    To ensure data confidentiality, encryption is used at the radio interface level using the AES (Advanced Encryption Standard) protocol. This protects the transmitted information from unauthorized access and interception.
+                    Access control is carried out using various mechanisms, such as network routers, firewalls and intrusion detection systems (IDS). They help prevent unauthorized access to network resources and services.</p>
+            </div>
+            <div class="analysis-col">
+                <h3>Possible attacks</h3>
+                <p>Authentication attacks include identity forgery or the use of stolen credentials to gain unauthorized access to the network.
+                    Attacks on data encryption can include compromised encryption keys or attacks on encryption protocols used on the network.
+                    Access control attacks can be aimed at trying to gain access to resources or services that are not allowed for a specific user.</p>
+            </div>
+            <div class="analysis-col">
+                <h3>Feasibility of attacks and their complexity</h3>
+                <p>The feasibility of attacks depends on various factors, such as the level of network protection, the use of strong encryption algorithms and the correct security configuration.
+                    Authentication attacks may be feasible in the case of weak or compromised credentials, insufficient authentication, or vulnerabilities in authentication protocols.
+                    Data encryption attacks can be difficult if strong encryption algorithms and keys are used, but they can become possible when a vulnerability is discovered.</p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Videos of Analysis</h1>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <iframe width="440" height="320" src="https://www.youtube.com/embed/qMEPF9CKDQ0?autoplay=1" allow="'autoplay'" frameborder="0" allowfullscreen=""></iframe>
+
+                <h3>Security Mechanisms</h3>
+                
+            </div>
+            <div class="facilities-col">
+                <iframe width="440" height="320" src="https://www.youtube.com/embed/O-W0qw1N3eI?autoplay=1" allow="'autoplay'" frameborder="0" allowfullscreen=""></iframe>
+
+                <h3> Possible Attacks</h3>
+                
+            </div>
+            <div class="facilities-col">
+                <iframe width="440" height="320" src="https://www.youtube.com/embed/5HymBQRrRQ8?autoplay=1" allow="'autoplay'" frameborder="0" allowfullscreen=""></iframe>
+            <h3>Feasibility of attacks and their complexity</h3>
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="gotocon">
+            <a href="file:///C:/Users/HP/Downloads/Shendibay%20Azmeiir/conclusion.html" target="_blank" class="btn">Let's go to the "Conclusion"</a>
+
+        </div>
+        
+        
+        </div>
+        <p>Made by Shendibay Azmeiir <i class="fa fa-certificate"aria-hidden="true" ></i></p>
+
+    </footer>
+    </div>
+    <script>
+        var navLink=document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right="0";
+        }
+        function hideMenu() { 
+            navLink.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
