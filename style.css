@@ -376,7 +376,7 @@ h3 {
     position: relative;
      left: 0%;
      transform: translate(0%, 0);
-    margin-left: 210px;
+    margin-top: auto;
 }
 
 .hero-btn:hover {
